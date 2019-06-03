@@ -12,7 +12,7 @@ public class MyBeans {
     @Scope("prototype")
     //@Scope("singleton")
     //@Scope("request")
-    //@Scope("session") moet met kleine letters.
+    //@Scope("session") moeten allemaal met kleine letters.
     public Dierentuin vogelBos() {
         Dierentuin vogelBos = new Dierentuin();
         vogelBos.setDieren("Vogels");
