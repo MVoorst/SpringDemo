@@ -17,5 +17,4 @@ public interface DierentuinRepository extends CrudRepository<Dierentuin, Long> {
     @Query("SELECT d FROM Dierentuin d WHERE d.aantalMedewerkers = ?1")
     Optional<Dierentuin> findByAantalMedewerkers(int aantalMedewerkers);
 
-    
 }
